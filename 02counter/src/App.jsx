@@ -10,9 +10,12 @@ function App() {
   // let counter = 15;
 
   const addValue = () => {
-    counter = counter + 1
-    console.log(counter)
-    setCounter(counter)
+    // counter = counter + 1
+    // console.log(counter)
+    setCounter(counter + 1);
+    // setCounter(counter + 2);
+    // setCounter(counter + 3);
+    // setCounter(counter + 4);
   }
 
   const decreaseValue = () => {

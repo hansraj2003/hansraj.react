@@ -34,7 +34,7 @@ anotherUser
 ReactDOM.createRoot(document.getElementById('root')).render(
 
   // <App />
-  // MyApp()
+  // MyApp() 
   // ReactElement
   // anotherElement
   reactElement
