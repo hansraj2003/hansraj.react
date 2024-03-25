@@ -44,7 +44,7 @@ const router = createBrowserRouter(
       {/* <Route path='' element={<Header/>}/> iska route nahi denge tab bhi chalega kyuki header layout.jsx folder me included hai*/}
       <Route path='about' element={<About />} />
       <Route path='contact' element={<Contact />} />
-      <Route path='user/:userid' element={<User />} />
+      <Route path='user/:userid' element={<User />} />       // it is important what values i give after :
       <Route
         loader={githubInfoLoader}
         path='github'
